@@ -19,7 +19,7 @@ public class ClassifyingImagesSDK: WKWebView  {
         }
 
         @discardableResult
-        public func load() -> WKNavigation? {
+        public func loadView() -> WKNavigation? {
             if let url = URL(string:"https://www.balancerecruitment.com.au/") {
                 let req = URLRequest(url: url)
                 return super.load(req)
